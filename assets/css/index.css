@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+nav h1 {
+    text-align: center;
+    font-family: "Concert One";
+    color: black;
+    width: 50vw;
+    font-size: xx-large;
+    padding-block: 2.5vh;
+}
+
+nav a:hover p,
+nav a:hover img {
+    transform: scale(1.1);
+}
+
+.user {
+    width: 30px;
+    height: 30px;
+}
+
+.shopping {
+    width: 30px;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.header p {
+    margin: 5vh auto;
+    text-align: center;
+    width: 60%;
+    font-weight: 200;
+}
+
+.header_img {
+    width: 90vw;
+    height: 65vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 5vw;
+    scrollbar-width: none;
+}
+
+.header_img img {
+    width: 20vw;
+    height: 60vh;
+    object-fit: cover;
+    flex-shrink: 0;
+    animation: defilement 60s infinite linear;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-255vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*tous les hr*/
+hr {
+    margin: 10vh auto;
+    width: 65%;
+}
+
+
+.category {
+    margin: 15vh auto;
+}
+
+.category p,
+.category h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.category p {
+    width: 60%;
+    font-weight: 200;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 5vh;
+}
+
+.choice img {
+    width: 15vw;
+    height: 65vh;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: filter 0.7s ease;
+}
+
+.choice1:hover img,
+.choice2:hover img{
+    filter: brightness(50%);
+}
+
+.choice .title1,
+.choice .title2 {
+    width: auto;
+    position: relative;
+    font-weight: 500;
+    font-size: medium;
+    top: -20vh;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+}
+
+.choice :hover .title1,
+.choice :hover .title2{
+    opacity: 1;
+}
+
+.news {
+    margin: 15vh auto;
+}
+
+.news p,
+.news h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.news p {
+    width: 60%;
+    font-weight: 200;
+}
