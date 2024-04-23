@@ -4,22 +4,57 @@
     font-family: "Kanit", sans-serif;
 }
 
-.login h1 {
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+nav h1 {
+    text-align: center;
     font-family: "Concert One";
     color: black;
+    width: 50vw;
     font-size: xx-large;
+    padding-block: 2.5vh;
 }
 
-.login a {
+nav a:hover p,
+a:hover img {
+    transform: scale(1.1);
+}
+
+.men {
+    visibility: hidden;
+}
+
+.user {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+.shopping {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+nav a {
     text-decoration: none;
+    color: black;
 }
 
-.login {
-    border: 1px solid red;
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20vh auto;
-    list-style: none;
+.back img{
+    width: 40px;
+    height: 40px;
 }
