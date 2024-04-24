@@ -65,6 +65,7 @@ nav a {
     overflow-x: scroll;
     gap: 5vw;
     scrollbar-width: none;
+    overflow-x: hidden;
 }
 
 .header_img img {
