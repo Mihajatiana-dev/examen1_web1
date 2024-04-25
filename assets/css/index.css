@@ -27,6 +27,7 @@ nav h1 {
     width: 50vw;
     font-size: xx-large;
     padding-block: 2.5vh;
+    border: 1px solid red;
 }
 
 nav a:hover p,

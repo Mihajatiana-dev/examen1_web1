@@ -8,15 +8,9 @@ nav {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: white;
-}
-
-ul {
+    background-color: red;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    width: 100%;
 }
 
 nav h1 {
@@ -28,30 +22,14 @@ nav h1 {
     padding-block: 2.5vh;
 }
 
-nav a:hover p,
 a:hover img {
     transform: scale(1.1);
-}
-
-.men {
-    visibility: hidden;
-}
-
-.user {
-    width: 30px;
-    height: 30px;
-    visibility: hidden;
-}
-
-.shopping {
-    width: 30px;
-    height: 30px;
-    visibility: hidden;
 }
 
 nav a {
     text-decoration: none;
     color: black;
+    border: 1px solid black;
 }
 
 .back img{
