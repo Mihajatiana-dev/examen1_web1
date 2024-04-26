@@ -24,11 +24,14 @@ nav h1 {
     text-align: center;
     font-family: "Concert One";
     color: black;
-    width: 50vw;
     font-size: xx-large;
     padding-block: 2.5vh;
-    border: 1px solid red;
 }
+
+.title {
+    margin-inline: 20vw;
+}
+
 
 nav a:hover p,
 nav a:hover img {
@@ -132,7 +135,7 @@ hr {
 }
 
 .choice1:hover img,
-.choice2:hover img{
+.choice2:hover img {
     filter: brightness(50%);
 }
 
@@ -149,7 +152,7 @@ hr {
 }
 
 .choice :hover .title1,
-.choice :hover .title2{
+.choice :hover .title2 {
     opacity: 1;
 }
 
