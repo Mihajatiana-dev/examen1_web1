@@ -126,6 +126,10 @@ hr {
     margin-top: 5vh;
 }
 
+.choice a{
+    text-decoration: none;
+}
+
 .choice img {
     width: 15vw;
     height: 65vh;
