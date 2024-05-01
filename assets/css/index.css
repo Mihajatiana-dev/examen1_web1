@@ -127,7 +127,7 @@ hr {
     margin-top: 5vh;
 }
 
-.choice a{
+.choice a {
     text-decoration: none;
 }
 
@@ -223,4 +223,159 @@ hr {
 
 .text_item p {
     font-weight: 200;
+}
+
+.marks h2,
+.marks p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.marks p {
+    width: 60%;
+    font-weight: 200;
+}
+
+.marks_list {
+    display: flex;
+    height: 60vh;
+}
+
+.marks_list .img1 {
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.marks_list .img2 {
+    width: 10vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.marks_list .img3 {
+    width: 10vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.marks_list .img4 {
+    width: 7vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.marks_list .img5 {
+    width: 8vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.marks_list .name {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.marks_list .desc {
+    font-size: small;
+    font-weight: 200;
+}
+
+.marks_item {
+    border: 2px solid rgb(138, 138, 138);
+    border-radius: 40px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marks_item .desc {
+    display: none;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+    animation: show 2s;
+}
+
+.marks_item .name {
+    display: none;
+    justify-content: center;
+}
+
+.marks_item:hover .desc {
+    display: flex;
+}
+
+.marks_item:hover .name {
+    display: flex;
+}
+
+.marks_item:hover {
+    cursor: pointer;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+    padding-bottom: 20vh;
+    position: relative;
+}
+
+.shop p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+.shop button {
+    margin: 0 auto;
+    width: 30vw;  
+    height: 8vh;
+    font-size: x-large;  
+    background-color: rgb(0, 159, 74);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+.shop img {
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    position: absolute;
+    top: 20vh;
+    right: 25vw;
+    animation: size 1s linear infinite;
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.footer {
+    background-color: black;
+    bottom: 0;
+    height: 50vh;
+    color: white;
 }
