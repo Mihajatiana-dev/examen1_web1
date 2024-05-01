@@ -341,14 +341,22 @@ hr {
 }
 
 .shop button {
-    margin: 0 auto;
-    width: 30vw;  
+    width: 30vw;
     height: 8vh;
-    font-size: x-large;  
+    font-size: x-large;
     background-color: rgb(0, 159, 74);
     border-radius: 5px;
     color: white;
     border: 1px solid white;
+}
+
+.shop button:hover{
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.shop a {
+    margin: 0 auto;
 }
 
 .shop img {
@@ -365,17 +373,117 @@ hr {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     bottom: 0;
-    height: 50vh;
     color: white;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    bottom: 0;
+}
+
+.first_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first_line .company,
+.first_line .help {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 3vh;
+}
+
+.block1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10vw;
+    margin-left: 7vw;
+}
+
+.first_line img {
+    width: 5vw;
+    height: 5vh;
+    object-fit: contain;
+}
+
+.first_line p {
+    font-size: small;
+    color: rgb(121, 121, 121);
+}
+
+.first_line p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.first_line .ttl {
+    font-size: medium;
+}
+
+.first_line img:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.social {
+    display: flex;
+}
+
+.second_line {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.hr_footer {
+    margin: inherit;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    width: 40%;
+}
+
+.second_line p {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.last_block {
+    width: 100%;
+}
+
+.second_line ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+.second_line a {
+    color: rgb(121, 121, 121);
+    font-weight: 200;
+}
+
+.second_line a:hover {
+    color: white;
+}
+
+.second_line p {
+    font-size: small;
+    color: rgb(121, 121, 121);
 }
