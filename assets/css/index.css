@@ -398,6 +398,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 98%;
 }
 
 .first_line .company,

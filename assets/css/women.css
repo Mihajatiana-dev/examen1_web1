@@ -73,7 +73,6 @@ nav a {
     background-color: black;
     width: 40vw;
     border-radius: 5px;
-    margin-top: 5vh;
 }
 
 .search img {
@@ -240,6 +239,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 98%;
 }
 
 .first_line .company,
