@@ -9,6 +9,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 2;
 }
 
 ul {
@@ -49,4 +50,288 @@ a:hover img {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+.intro {
+    font-weight: 200;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding-block: 5vh;
+}
+
+.cloths {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 40vw;
+    border-radius: 5px;
+    margin-top: 5vh;
+}
+
+.search img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.search img:hover {
+    cursor: pointer;
+}
+
+.search input {
+    border-radius: 5px;
+    border: 0;
+    width: 35vw;
+    height: 5vh;
+    margin: 1vh 1vw;
+    padding-left: 1vw;
+    font-size: medium;
+    font-weight: 300;
+    outline: none;
+}
+
+.fav img {
+    width: 30px;
+    height: 30px;
+}
+
+.fav img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.all {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+.line {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover .image {
+    filter: brightness(85%);
+}
+
+.all .image {
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.heart img {
+    width: 25px;
+    height: 25px;
+}
+
+.heart img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.txt {
+    font-weight: 200;
+}
+
+.num {
+    font-size: medium;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+    padding-bottom: 20vh;
+    position: relative;
+}
+
+.shop p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.shop button {
+    width: 30vw;
+    height: 8vh;
+    font-size: x-large;
+    background-color: rgb(0, 159, 74);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+.shop button:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.shop a {
+    margin: 0 auto;
+}
+
+.shop img {
+    width: 10vw;
+    height: 10vh;
+    object-fit: contain;
+    position: absolute;
+    top: 20vh;
+    right: 25vw;
+    animation: size 1s linear infinite;
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    bottom: 0;
+}
+
+.first_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.first_line .company,
+.first_line .help {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 3vh;
+}
+
+.block1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10vw;
+    margin-left: 7vw;
+}
+
+.first_line img {
+    width: 5vw;
+    height: 5vh;
+    object-fit: contain;
+}
+
+.first_line p {
+    font-size: small;
+    color: rgb(121, 121, 121);
+}
+
+.first_line p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.first_line .ttl {
+    font-size: medium;
+}
+
+.first_line img:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.social {
+    display: flex;
+}
+
+.second_line {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.hr_footer {
+    margin: inherit;
+    margin: 0 auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    width: 40%;
+}
+
+.second_line p {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.last_block {
+    width: 100%;
+}
+
+.second_line ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+
+.second_line a {
+    color: rgb(121, 121, 121);
+    font-weight: 200;
+}
+
+.second_line a:hover {
+    color: white;
+}
+
+.second_line p {
+    font-size: small;
+    color: rgb(121, 121, 121);
+}
+
+hr {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
 }

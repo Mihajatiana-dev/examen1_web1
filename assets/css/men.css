@@ -74,6 +74,7 @@ nav a {
     background-color: black;
     width: 40vw;
     border-radius: 5px;
+    margin-top: 5vh;
 }
 
 .search img {
@@ -192,7 +193,7 @@ nav a {
     border: 1px solid white;
 }
 
-.shop button:hover{
+.shop button:hover {
     cursor: pointer;
     scale: 1.02;
 }
@@ -277,7 +278,7 @@ nav a {
     font-size: medium;
 }
 
-.first_line img:hover{
+.first_line img:hover {
     cursor: pointer;
     scale: 1.2;
 }
