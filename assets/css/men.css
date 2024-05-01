@@ -51,3 +51,58 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+.intro {
+    font-weight: 200;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    padding-block: 5vh;
+}
+
+.cloths {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.search {
+    display: flex;
+   align-items: center;
+   background-color: black;
+   width: 40vw;
+   border-radius: 5px;
+}
+
+.search img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.search img:hover {
+    cursor: pointer;
+}
+
+.search input {
+    border-radius: 5px;
+    border: 0;
+    width: 35vw;
+    height: 5vh;
+    margin: 1vh 1vw;
+    padding-left: 1vw;
+    font-size: medium;
+    font-weight: 300;
+    outline: none;
+}
+
+.fav img {
+    width: 30px;
+    height: 30px;
+}
+
+.fav img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
